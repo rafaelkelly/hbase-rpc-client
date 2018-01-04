@@ -2,6 +2,7 @@ module.exports = (options) ->
 	Client = require('./client')
 	new Client options
 
+module.exports.Client = require './client'
 module.exports.Put = require './put'
 module.exports.Get = require './get'
 module.exports.Delete = require './delete'
